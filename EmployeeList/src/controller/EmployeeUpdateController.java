@@ -38,7 +38,7 @@ public class EmployeeUpdateController extends HttpServlet {
     
     public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
-		db = new DB("C:\\Users\\kurwhibble\\Documents\\Renrgyx\\Repositories\\OnlineBooks\\BookShopping\\app.properties");
+		db = new DB("C:\\Users\\kurwhibble\\Documents\\Renrgyx\\Repositories\\EmployeeList\\EmployeeList\\app.properties");
 		try {
 			db.connect();
 		} catch (DBExceptions e) {
